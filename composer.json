@@ -1,0 +1,29 @@
+{
+    "name": "garwoodsec/cakephp3-acl-manager",
+    "description": "AclManager plugin for CakePHP 3.x",
+    "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "acl", "manager"],
+    "homepage": "https://bitbucket.org/garwoodsec/cakephp3-acl-manager",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Amat",
+            "homepage": "http://www.ivanamat.es",
+            "role": "Original Author",
+            "name": "Wesley Darton",
+            "role": "Modifier"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "composer/installers": "*",
+        "cakephp/cakephp": "~3.0",
+        "cakephp/plugin-installer": "~1.0",
+        "cakephp/acl": "~0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AclManager\\": "src"
+        }
+    }
+}
